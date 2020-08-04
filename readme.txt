@@ -1,9 +1,40 @@
-ÎÄ¼şÃû£º				ÓÃÍ¾£º
-	Data_Set_Up.m				Éú³É´«¸ĞÆ÷Êı¾İ
-	CWT_Set_Up.m				ÀûÓÃĞ¡²¨±ä»»Éú³ÉÊ±ÆµÓòÊı¾İ
-	Image_Set_Up.m 				ÉèÖÃbeamforming²ÎÊı²¢Êä³ö×îºó½á¹û
-	mics_coor_Array.mat			´«ÉùÆ÷×ø±ê
-Ê¹ÓÃ¹ı³Ì£º
-	ÀûÓÃ Data_Set_Up.m Éú³É´«ÉùÆ÷Êı¾İ£¬²¢´æ´¢ÔÚ Data ÎÄ¼ş¼ĞÖĞ¡£
-	ÀûÓÃ CWT_Set_Up.m Éú³ÉÊ±ÆµÓòÊı¾İ²¢´æ´¢ÔÚ CWT ÎÄ¼ş¼ĞÖĞ
-	ÀûÓÃ Image_Set_Up.m µÃµ½×îºó³ÉÏñ½á¹û²¢´æ´¢ÔÚ Result ÎÄ¼ş¼ĞÖĞ
+Chinese readme:
+æ–‡ä»¶åï¼š				ç”¨é€”ï¼š
+	Data_Set_Up.m				ç”Ÿæˆä¼ æ„Ÿå™¨æ•°æ®
+	CWT_Set_Up.m				åˆ©ç”¨å°æ³¢å˜æ¢ç”Ÿæˆæ—¶é¢‘åŸŸæ•°æ®
+	Image_Set_Up.m 				è®¾ç½®beamformingå‚æ•°å¹¶è¾“å‡ºæœ€åç»“æœ
+	mics_coor_Array.mat			ä¼ å£°å™¨åæ ‡
+ä½¿ç”¨è¿‡ç¨‹ï¼š
+	åˆ©ç”¨ Data_Set_Up.m ç”Ÿæˆä¼ å£°å™¨æ•°æ®ï¼Œå¹¶å­˜å‚¨åœ¨ Data æ–‡ä»¶å¤¹ä¸­ã€‚
+	åˆ©ç”¨ CWT_Set_Up.m ç”Ÿæˆæ—¶é¢‘åŸŸæ•°æ®å¹¶å­˜å‚¨åœ¨ CWT æ–‡ä»¶å¤¹ä¸­
+	åˆ©ç”¨ Image_Set_Up.m å¾—åˆ°æœ€åæˆåƒç»“æœå¹¶å­˜å‚¨åœ¨ Result æ–‡ä»¶å¤¹ä¸­
+	
+	
+Please cite:
+
+W. Chen, X. Huang, Wavelet-based beamforming for high-speed rotating acoustic source, IEEE Access 6 (2018) 10231â€“10239.
+
+W. Chen, B. Peng, X. Huang, Experimental study of airfoil-rotor interaction noise by wavelet beamforming, J. Acoust. Soc. Am. 147 (5) (2020) 1â€“11.
+
+S. Liang, W. Chen, R. P. Liem and X. Huang, Experimental Analysis of Cooling Fan Noise by Wavelet-Based Beamforming and Proper Orthogonal Decomposition, IEEE Access (2020) 121197-121203.
+
+
+English readme:
+
+File name:					 Purpose:
+
+Data_ Set_ Up.m					 generates sensor data
+
+CWT_ Set_ Up.m					 uses wavelet transform to generate time and frequency domain data
+
+Image_ Set_ Up.m				 sets the beamforming parameter and outputs the final result
+
+mics_ coor_ Array.mat				 Microphone coordinates
+
+Use process:
+
+Using data_ Set_ Up.m				 generates microphone data and stores it in the data folder.
+
+Using CWT_ Set_ Up.m				 generates time and frequency domain data and stores them in CWT folder
+
+Using image_ Set_ Up.m				 gets the final imaging results and stores them in the result folder
