@@ -21,20 +21,20 @@ S. Liang, W. Chen, R. P. Liem and X. Huang, Experimental Analysis of Cooling Fan
 
 English readme:
 
-File name:					 Purpose:
+File name:			 Purpose:
 
-Data_ Set_ Up.m					 generates sensor data
+Data_ Set_ Up.m			 generates sensor data
 
-CWT_ Set_ Up.m					 uses wavelet transform to generate time and frequency domain data
+CWT_ Set_ Up.m			 uses wavelet transform to generate time and frequency domain data
 
-Image_ Set_ Up.m				 sets the beamforming parameter and outputs the final result
+Image_ Set_ Up.m		 sets the beamforming parameter and outputs the final result
 
-mics_ coor_ Array.mat				 Microphone coordinates
+mics_ coor_ Array.mat		 Microphone coordinates
 
 Use process:
 
-Using data_ Set_ Up.m				 generates microphone data and stores it in the data folder.
+Using data_ Set_ Up.m		 generates microphone data and stores it in the data folder.
 
-Using CWT_ Set_ Up.m				 generates time and frequency domain data and stores them in CWT folder
+Using CWT_ Set_ Up.m		 generates time and frequency domain data and stores them in CWT folder
 
-Using image_ Set_ Up.m				 gets the final imaging results and stores them in the result folder
+Using image_ Set_ Up.m		 gets the final imaging results and stores them in the result folder
