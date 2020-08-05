@@ -35,3 +35,11 @@ Using data_ Set_ Up.m generates microphone data and stores it in the data folder
 Using CWT_ Set_ Up.m generates time and frequency domain data and stores them in CWT folder
 
 Using image_ Set_ Up.m gets the final imaging results and stores them in the result folder
+
+Please refer to the following articles for code usage:
+
+W. Chen, X. Huang, Wavelet-based beamforming for high-speed rotating acoustic source, IEEE Access 6 (2018) 10231–10239.
+
+W. Chen, B. Peng, X. Huang, Experimental study of airfoil-rotor interaction noise by wavelet beamforming, J. Acoust. Soc. Am. 147 (5) (2020) 1–11.
+
+S. Liang, W. Chen, R. P. Liem and X. Huang, Experimental Analysis of Cooling Fan Noise by Wavelet-Based Beamforming and Proper Orthogonal Decomposition, IEEE Access (2020) 121197-121203.
